@@ -90,19 +90,19 @@ for (var index = 0; index < dropzones.length; index++) {
 }
 // ---
 
-window.addEventListener(
-  "keydown",
-  function (event) {
-    if (event.defaultPrevented) {
-      return; // Do nothing if the event was already processed
-    }
+// window.addEventListener(
+//   "keydown",
+//   function (event) {
+//     if (event.defaultPrevented) {
+//       return; // Do nothing if the event was already processed
+//     }
 
-    switch (event.key ='Enter') {
-      return addTask(taskValue);
-    }
+//     switch (event.key ='Enter') {
+//       return addTask(taskValue);
+//     }
 
-    // Cancel the default action to avoid it being handled twice
-    // event.preventDefault();
-  },
-  true
-);
+//     // Cancel the default action to avoid it being handled twice
+//     // event.preventDefault();
+//   },
+//   true
+// );
